@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+$font-stack: Raleway, sans-serif;
+$primary-color: #4292E7;
+
+
+body {
+  font: 100% $font-stack;
+}
+
+.app {
+    text-align: center;
+    min-height: 100vh;
+    background: $primary-color
+}
+
+.data{
+  .task-list{
+  max-height: 400px;
+  overflow-x: auto;
+  }
+}
+
+li{
+  input{
+    margin-left: 5px;
+  }
+}
