@@ -1,0 +1,6 @@
+<form class="app-form col-lg-7" [formGroup]="form">
+  <input [(ngModel)]="todo" [formControlName]="'todo'" type="text" class="form-control" placeholder="Enter new task"
+    name="todo" />
+  <button [disabled]="!todo" (click)="onSubmit()" class="app-form__button btn btn-outline-light">ADD
+    TASK</button>
+</form>

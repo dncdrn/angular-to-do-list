@@ -1,0 +1,10 @@
+<div class="task-list">
+  <li [@moveInLeft] class="task-item list-group-item " *ngFor="let todo of taskListArray; let i = index">
+    <span (click)="markTaskCompleted(i)">
+      <i *ngIf="todo.isCompleted" class="material-icons task-item__done">check_circle_outline</i>
+      <input class="task-item__checkbox" type="checkbox" *ngIf="!todo.isCompleted" />
+    </span>
+    <span [className]="todo.isCompleted ? 'task-name-completed' : 'task-name'">{{todo.value}}</span>
+    <i (click)="deleteTask(i)" class="task-item__delete material-icons">delete</i>
+  </li>
+</div>
