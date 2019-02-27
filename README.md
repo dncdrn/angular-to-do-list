@@ -1,27 +1,39 @@
-# TodoApp
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
-## Development server
+## Angular To Do App
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Follow the steps below to run this project:
 
-## Code scaffolding
+### `npm install -g @angular/cli`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Install the CLI using the npm package manager. Run this script in machine terminal or cmd. If you have this package in your machine skip this step.
 
-## Build
+### `git clone https://github.com/dncdrn/angular-to-do-list.git`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Clone the repository using the script above run this in machine terminal or cmd. Go to the react-to-do-list folder to access the project folder.
 
-## Running unit tests
+### `npm install`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Install all the dependecy in the project. Run this script in machine terminal or cmd. Wait for a few seconds it will take some time to install the dependencies.
 
-## Running end-to-end tests
+## `ng serve`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+ Run this script in machine terminal or cmd. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Further help
+## Features
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Adding new task 
+ 
+Input value in textbox hit enter or click the add task button.
+
+### List of task view 
+
+All the task will be display below the form.
+
+### Completing the task 
+
+Checking the checkbox on the left side of the task name will tag the task as completed, you can revert it by clicking it again.
+
+### Deleting the task 
+
+Clicking the red trashcan on the right side of the task name will be removed in the task list.
